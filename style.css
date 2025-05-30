@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: #EEF1FB;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+nav .logo {
+    padding: 10px;
+    background: #000;
+    color: #fff;
+}
+
+nav .links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav .links a {
+    font-size: 1.5vw;
+}
+
+nav .btns {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+nav .btns button[id="loginBtn"] {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #3752C7;
+    border: 2px solid #3752C7;
+}
+
+nav .btns button[id="loginBtn"] a {
+    color: #fff;
+}
+
+nav .btns button[id="loginBtn"]:hover {
+    background: #fff;
+    border: 2px solid #3752C7;
+}
+
+nav .btns button[id="loginBtn"]:hover a {
+    color: #3752C7;
+}
+
+
+nav .btns button[id="regisBtn"] {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #fff;
+    border: 2px solid #3752C7;
+}
+
+nav .btns button[id="regisBtn"] a {
+    color: #3752C7;
+}
+
+nav .btns button[id="regisBtn"]:hover {
+    background: #3752C7;
+    border: 2px solid #3752C7;
+}
+
+nav .btns button[id="regisBtn"]:hover a {
+    color: #fff;
+}
