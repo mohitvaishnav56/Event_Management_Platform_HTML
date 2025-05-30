@@ -8,13 +8,115 @@
 }
 
 .hero .left{
+    padding: 20px;
     height: 100%;
     width: 50%;
-    background-color: rebeccapurple;
+        line-height: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.left #greet{
+    font-size: 10vw;
+    color: #fff;
+    font-family: "inter-regular";
+}
+
+.left h2{
+    font-size: 3.5vw;
+    color: #fff;
+    font-family: "inter-regular";
+    margin-left: 10%;
+}
+
+.left #goes{
+    font-size: 9.5vw;
+    color: #fff;
+    font-family: "Irish";
+    font-weight: 200;
+    margin-left: 11%;
+}
+
+.left #up{
+    font-size: 9.5vw;
+    color: #fff;
+    font-family: "Irish";
+    font-weight: 200;
+    margin-left: 50%;
+}
+
+.left .arrow img{
+    scale: 0.7;
+    transform: rotate(40deg);
+}
+
+.left .arrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    gap: 1.5vw;
+    position: absolute; 
+    transform: rotate(-45deg);
+    left: 60%;
+    top: 40%;
 }
 
 .hero .right{
+    padding: 25px;
     height: 100%;
     width: 50%;
-    background-color: rgb(153, 51, 136);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right .showcase{
+    height: 50vh;
+    width: 100%;
+    position: relative;
+}
+
+.card{
+    padding: 5px;
+    height: 200px;
+    width: 210px;
+    position: absolute;
+    background: #D9D9D9CF;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+    border-radius: 10px;
+    transform: rotate(-10deg);
+}
+
+.card img{
+    width: 98%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 8px;
+
+}
+
+.card span{
+    height: 4px;
+    width: 98%;
+    background: #000;
+}
+
+#card2{
+    transform: translateX(30%) rotate(10deg);
+    right: 20%;
+    z-index: 20;
+}
+
+.right h1{
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: "irish";
+    color: #fff;
+    font-weight: 100;
 }

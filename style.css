@@ -7,7 +7,6 @@
 @font-face {
     font-family: 'inter-regular';
     src: url('./assets/fonts/Inter-Medium.otf') format('opentype');
-    
 }
 
 
@@ -30,11 +29,10 @@ body {
 }
 
 main {
-    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 1.5vh;
+    gap: 4vh;
 }
 
 nav {
