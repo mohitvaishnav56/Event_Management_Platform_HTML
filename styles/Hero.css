@@ -1,0 +1,20 @@
+.hero {
+    margin: auto;
+    height: 80%;
+    width: 97%;
+    background: linear-gradient(102deg, #366BE6 22.77%, #A0B0F6 97.87%);
+    border-radius: 15px;
+    display: flex;
+}
+
+.hero .left{
+    height: 100%;
+    width: 50%;
+    background-color: rebeccapurple;
+}
+
+.hero .right{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(153, 51, 136);
+}
